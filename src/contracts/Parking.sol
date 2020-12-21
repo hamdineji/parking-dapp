@@ -27,7 +27,7 @@ contract Parking{
     );
 
     constructor() public {
-        name = "Hamdi Neji Marketplace";
+        name = "Hamdi Neji parking";
         parkingowner=0x9AA2b8a1d120452A6c2D7B66262C58780dC82142;}
     function createPlace(string memory _position, uint _price )public  {
         require(msg.sender==parkingowner);
